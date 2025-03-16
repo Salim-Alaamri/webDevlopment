@@ -69,10 +69,7 @@ function create() {
 
   localStorage.setItem("product", JSON.stringify(dataProduct));
 
-  
-
   showData();
-  
 }
 
 function clear() {
@@ -117,7 +114,6 @@ function showData() {
     deleteAllBtn.innerHTML = "";
     deleteAllBtn.style.display = "none";
   }
-  
 }
 
 function deleteBtn(i) {
@@ -215,3 +211,5 @@ function searchData(value) {
 }
 
 showData();
+
+TextDecoderStream();
